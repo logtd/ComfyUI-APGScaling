@@ -61,7 +61,7 @@ class APGFunctionNode:
                 "eta": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 10.0, "step": 0.01}),
                 "norm_threshold": ("FLOAT", {"default": 0.3, "min": 0.0, "max": 10.0, "step": 0.01}),
                 "use_momentum": (["enable", "disable"],),
-                "momentum": ("FLOAT", {"default": 0.05, "min": 0.00, "max": 1.00, "step": 0.01}),
+                "momentum": ("FLOAT", {"default": 0.05, "min": -1.00, "max": 1.00, "step": 0.01}),
             }
         }
 
